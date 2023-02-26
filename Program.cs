@@ -5,9 +5,7 @@
         GetAppInfo(); // Call GetAppInfo function
         GreetUser(); // Ask user's name and greet
 
-
-
-
+        // While user wants to play again
         while (true)
         {
 
@@ -62,14 +60,9 @@
             {
                 continue;
             }
-            else if (answer == "N")
-            {
-                return;
-            }
-            else
-            {
-                return;
-            }
+
+            // Exit the application
+            return;
         }
     }
 
